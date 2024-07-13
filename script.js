@@ -14,9 +14,20 @@ boxOne.style.background = 'brown'
 )
 
 
+let boxThree = document.querySelector('.b_three'); 
+
+boxThree.addEventListener('click',()  => {
+boxThree.style.background = 'rgb(38, 38, 49)'
+}
+)
+
+
+
 document.querySelector('.button_click').onclick = () => {
 console.log('Hello')  
-boxOne.style.background = '#523300'
+boxOne.style.background = '#523300';
+boxTwo.style.background = '#044300';
+boxThree.style.background = '#338300'
 }
 
 
